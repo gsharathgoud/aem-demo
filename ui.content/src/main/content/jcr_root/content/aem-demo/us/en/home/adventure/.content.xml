@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-04-22T16:43:08.743-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/aem-demo/settings/wcm/templates/spa-remote-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Adventure"
+        sling:resourceType="aem-demo/components/remotepage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        </root>
+    </jcr:content>
+    <bali-surf-camp/>
+    <beervana-in-portland/>
+</jcr:root>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-04-23T09:43:30.850-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/aem-demo/settings/wcm/templates/spa-remote-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Bali Surf Camp"
+        sling:resourceType="aem-demo/components/remotepage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <title
+                    jcr:created="{Date}2021-04-23T09:31:07.261-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-23T09:43:30.847-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Experience the best of Bali"
+                    sling:resourceType="aem-demo/components/title"
+                    type="h2"/>
+                <image
+                    jcr:created="{Date}2021-04-23T09:31:27.588-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-23T09:32:05.479-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="aem-demo/components/image"
+                    displayPopupTitle="false"
+                    fileReference="/content/dam/wknd/en/adventures/surf-camp-in-costa-rica/adobestock_266405335.jpeg"
+                    isDecorative="true"
+                    titleValueFromDAM="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                </image>
+                <text
+                    jcr:created="{Date}2021-04-23T09:32:09.902-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-23T09:34:49.915-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="aem-demo/components/text"
+                    text="&lt;p>Stunning nature and world-class waves make a killer combo. Canggu has a unique feel to it, with its artistic atmosphere and vibrant surf culture.&amp;nbsp; Surf the same waves of the world's most prolific pro surfers, and then head back to town for local music, food and drinks!&lt;/p>&#xd;&#xa;&lt;p>It's all here for you to enjoy.&lt;/p>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                </text>
+                <text_1863695396
+                    jcr:created="{Date}2021-04-23T09:32:17.383-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-23T09:36:32.580-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="aem-demo/components/text"
+                    text="&lt;p>&lt;b>Incredibly flexible conditions&lt;/b>&lt;/p>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>Free rebooking and cancellation&lt;/li>&#xd;&#xa;&lt;li>Discounted travel booking service&lt;/li>&#xd;&#xa;&lt;li>Select from 4 hotel options&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            behavior="newline"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                </text_1863695396>
+                <text_134225149
+                    jcr:created="{Date}2021-04-23T09:32:21.924-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-23T09:37:41.158-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="aem-demo/components/text"
+                    text="&lt;p>&lt;b>Amazing 20% off on gift cards&lt;/b>&lt;/p>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>Benefit from current conditions&lt;/li>&#xd;&#xa;&lt;li>Valid for 2 years&lt;/li>&#xd;&#xa;&lt;li>Limit 1 per WKND adventure&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                </text_134225149>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
