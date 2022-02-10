@@ -11,7 +11,7 @@
         pwaCachestrategy="staleWhileRevalidate"
         pwaDisplay="standalone"
         pwaOrientation="any"
-        remoteSPAUrl="http://localhost:3000">
+        remoteSPAUrl="https://headlessremotespa.azurewebsites.net">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
