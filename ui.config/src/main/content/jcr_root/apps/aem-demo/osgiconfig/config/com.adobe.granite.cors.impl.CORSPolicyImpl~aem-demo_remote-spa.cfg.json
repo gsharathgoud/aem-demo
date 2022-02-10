@@ -2,7 +2,7 @@
   "supportscredentials": true,
   "exposedheaders": [""],
   "supportedmethods": ["GET", "HEAD", "POST", "OPTIONS"],
-  "alloworigin": ["https://external-hosted-app", "localhost:3000"],
+  "alloworigin": ["https://headlessremotespa.azurewebsites.net", "localhost:3000"],
   "maxage:Integer": 1800,
   "alloworiginregexp": [".*"],
   "allowedpaths": [".*"],
